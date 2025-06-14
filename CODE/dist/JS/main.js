@@ -25,6 +25,9 @@ function toggleMenu() {
         hamburger.classList.remove('open')
         nav.classList.remove('open')
         menuNav.classList.remove('open')
+        navItems.forEach(item => item.classList.remove('open'))
+
+         // Reset the menu state   
 
         showMenu = false 
     }
